@@ -1,0 +1,74 @@
+.statusCard {
+  border-radius: 12px;
+  border: 1px solid var(--Light-Gray, #e4e4e4);
+  background: var(--Main-White, #fff);
+  padding: 13px 15px;
+}
+.possitive {
+  color: var(--CTA-Blue, #4545fe);
+
+  /* Type-face/B4 Semibold */
+  font-family: Euclid Circular B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.positiveBal {
+  color: var(--Main-Green, #12d8a0);
+  margin-top: 8px;
+  /* Type-face/B9 Regular */
+  font-family: Euclid Circular B;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  gap: 7px;
+}
+.positiveP {
+  color: var(--Deep-Gray, #12d8a0);
+  font-family: Euclid Circular B;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.deposit {
+  color: var(--Green, #12d8a0);
+
+  /* Type-face/B4 Semibold */
+  font-family: Euclid Circular B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.failed {
+  color: var(--Error, #ff6a6a);
+
+  /* Type-face/B4 Semibold */
+  font-family: Euclid Circular B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.neg {
+  color: #ff6a6a;
+
+  /* Type-face/B9 Regular */
+  font-family: Euclid Circular B;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.positivePs {
+  color: var(--Deep-Gray, #3d3d3d);
+  font-family: Euclid Circular B;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

@@ -1,0 +1,187 @@
+.viewTransBtn {
+  color: #cbcbcb;
+  text-align: center;
+  font-family: Euclid Circular B;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #cbcbcb;
+}
+.overVIEWTITLE {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.overVIEWTITLE > h1 {
+  color: #191919;
+
+  /* Type-face/B4 Semibold */
+  font-family: Euclid Circular B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.overVIEWTITLE > p {
+  color: #606060;
+  font-family: Euclid Circular B;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.overViwcard {
+  border-radius: 16px;
+  background: #fff;
+  width: 68%;
+  padding: 21px 22px;
+  /* Low shadow */
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.02);
+}
+.overViewTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.periods {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 9px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.activePeroiod {
+  padding: 7px 21px;
+  border-radius: 8px;
+  background: #f5f5f5;
+  color: #3d3d3d;
+  text-align: center;
+  /* Type-face/B7 Semibold */
+  font-family: Euclid Circular B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.inactive {
+  color: var(--Deep-Gray, #3d3d3d);
+  text-align: center;
+  border-radius: 8px;
+  padding: 7px 21px;
+  background: var(--Main-White, #fff);
+  /* Type-face/B7 Regular */
+  font-family: Euclid Circular B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-column-gap: 10%;
+  grid-row-gap: 10%;
+  width: 50%;
+}
+.overviewBtm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  gap: 26px;
+}
+.cardsFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  width: 30%;
+}
+.cardCov {
+  border-radius: 16px;
+  background: var(--Main-White, #fff);
+  padding: 16px 17px;
+  /* Low shadow */
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.02);
+}
+.covFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.viewAllFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.viewAllFlex > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.countCards {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+.props {
+  color: var(--Deep-Gray, #3d3d3d);
+  font-family: Euclid Circular B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.viewAll {
+  color: var(--Gray, #cbcbcb);
+  text-align: right;
+  font-family: Euclid Circular B;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dates {
+  margin-top: 165px;
+}
+.date hr {
+  width: 100%;
+}
+.months {
+  display: flex;
+  gap: 14px;
+}
+.months p {
+  color: var(--Semi-Gray, #919191);
+  text-align: center;
+  font-family: Euclid Circular B;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.buttonCov {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--Light-Gray, #e4e4e4);
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+}
+.dateMap {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}

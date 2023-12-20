@@ -1,0 +1,27 @@
+.welcomeName {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.welcomeName h1 {
+  color: #191919;
+
+  /* Type-face/B4 Semibold */
+  font-family: Euclid Circular B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.welcomeP {
+  color: #3d3d3d;
+  font-family: Euclid Circular B;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.welcome {
+  padding-top: 19px;
+  padding-bottom: 20px;
+}

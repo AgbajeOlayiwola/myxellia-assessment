@@ -1,0 +1,35 @@
+.countCard > p {
+  color: var(--Mid-Gray, #606060);
+  text-align: center;
+
+  /* Type-face/B7 Regular */
+  font-family: Euclid Circular B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.countCard > h1 {
+  color: var(--Main-Black, #191919);
+  text-align: center;
+
+  /* Type-face/B3 Semibold */
+  font-family: Euclid Circular B;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.countCard {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding-top: 9px;
+  padding-bottom: 11px;
+  align-items: center;
+  width: 30%;
+
+  border-radius: 12px;
+  border: 1px solid var(--Gray, #f5f5f5);
+  background: var(--Main-White, #fff);
+}

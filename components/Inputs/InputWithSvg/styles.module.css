@@ -1,0 +1,17 @@
+.input > input {
+  border-radius: 12px;
+  border: 1px solid var(--Light-Gray, #e4e4e4);
+  background: var(--Gray, #f5f5f5);
+  padding: 10px 16px;
+  width: 100%;
+}
+.input {
+  position: relative;
+  display: flex;
+}
+.input svg {
+  position: absolute;
+  right: 0px;
+  right: 16px;
+  top: 10px;
+}

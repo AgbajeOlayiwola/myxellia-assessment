@@ -1,0 +1,20 @@
+.vergeAssistant {
+  border-radius: 70px;
+  background: var(--CTA-Blue, #4545fe);
+  display: inline-flex;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  /* a */
+  box-shadow: 4px 4px 8px 0px rgba(123, 157, 157, 0.15);
+}
+.vergeAssistant p {
+  color: #fff;
+  font-family: Euclid Circular B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
