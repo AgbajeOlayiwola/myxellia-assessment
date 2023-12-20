@@ -86,9 +86,9 @@ const TopCards = () => {
               </p>
             </div>
             <div className={styles.countCards}>
-              <CountCard />
-              <CountCard />
-              <CountCard />
+              <CountCard num={"0"} text="Total" />
+              <CountCard num={"0"} text="Available" />
+              <CountCard num={"0"} text="Sold out" />
             </div>
           </div>
           <div>
@@ -103,10 +103,10 @@ const TopCards = () => {
                 </p>
               </div>
               <div className={styles.countCards}>
-                <CountCard />
-                <CountCard />
-                <CountCard />
-                <CountCard />
+                <CountCard num={"0"} text="Total" />
+                <CountCard num={"0"} text="New" />
+                <CountCard num={"0"} text="Active" />
+                <CountCard num={"0"} text="Active" />
               </div>
             </div>
           </div>

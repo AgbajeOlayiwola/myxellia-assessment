@@ -3,7 +3,6 @@
 }
 .viewed {
   display: flex;
-  justify-content: space-between;
 }
 .listingCards {
   border-radius: 16px;
@@ -217,10 +216,28 @@
   flex-direction: column;
   gap: 40px;
 }
+.none h1 {
+  color: var(--Main-Black, #191919);
+  /* Type-face/B4 Semibold */
+  font-family: Euclid Circular B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 .neg {
   color: var(--Error, #ff6a6a);
 
   /* Type-face/B7 Semibold */
+  font-family: Euclid Circular B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.negi {
+  color: var(--Gray, #cbcbcb);
+  /* Type-face/B6 Semibold */
   font-family: Euclid Circular B;
   font-size: 14px;
   font-style: normal;

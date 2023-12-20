@@ -102,7 +102,7 @@ const BottomsCard = () => {
             <div className={styles.none}>
               <h1>None</h1>
               <div>
-                <p className={styles.neg}>0.00</p>
+                <p className={styles.negI}>0</p>
                 <p className={styles.outstanding}>Whole units sold</p>
               </div>
             </div>

@@ -24,7 +24,11 @@ const StatusCard = ({
       </h1>
       <div className={styles.positiveBal}>
         <p className={styles.positivePs}>{status}</p>
-        <StatusSvg />
+        <StatusSvg
+          color={
+            status === "Balance" || status === "Deposit" ? "#12D8A0" : "#FF6A6A"
+          }
+        />
         <p
           className={
             status === "Balance" || status === "Deposit"

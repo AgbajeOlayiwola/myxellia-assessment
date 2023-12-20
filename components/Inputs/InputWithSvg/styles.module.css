@@ -9,6 +9,9 @@
   position: relative;
   display: flex;
 }
+.input::placeholder {
+  font-size: 12px;
+}
 .input svg {
   position: absolute;
   right: 0px;

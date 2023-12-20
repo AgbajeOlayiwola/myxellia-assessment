@@ -37,6 +37,7 @@ const NavBelow = () => {
       icon: <SettingsSvg />,
     },
   ]
+  const activeNavItem = "Dashboard"
   return (
     <div className={styles.navBg}>
       <Cover>
@@ -44,7 +45,14 @@ const NavBelow = () => {
           <div className={styles.navItems}>
             {navData?.map((item, index) => {
               return (
-                <div key={index} className={styles.navItemsIcons}>
+                <div
+                  key={index}
+                  className={
+                    item.title === activeNavItem
+                      ? styles.activeNavItem
+                      : styles.navItemsIcons
+                  }
+                >
                   <div>{item?.icon}</div>
                   <p>{item?.title}</p>
                 </div>

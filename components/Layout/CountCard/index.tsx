@@ -1,9 +1,9 @@
 import styles from "./styles.module.css"
-const CountCard = () => {
+const CountCard = ({ num, text }: { num: string; text: string }) => {
   return (
     <div className={styles.countCard}>
-      <h1>0</h1>
-      <p>Total</p>
+      <h1>{num}</h1>
+      <p>{text}</p>
     </div>
   )
 }
