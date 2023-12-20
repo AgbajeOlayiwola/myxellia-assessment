@@ -1,4 +1,7 @@
-const CancelSvg = () => {
+interface CancelSvgProps {
+  onClick: () => void
+}
+const CancelSvg: React.FC<CancelSvgProps> = ({ onClick }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
