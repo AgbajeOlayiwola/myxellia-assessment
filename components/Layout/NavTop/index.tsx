@@ -30,20 +30,19 @@ const NavTop = () => {
             <div>
               <PlusSvg />
             </div>
-            <div
-              className={styles.calender}
-              onClick={() => setShowDate((prev) => !prev)}
-            >
-              <CalendarSvg />
+            <div className={styles.calender}>
+              <div onClick={() => setShowDate((prev) => !prev)}>
+                <CalendarSvg onClick={() => setShowDate((prev) => !prev)} />
+              </div>
               {showData ? (
                 <div className={styles.shownCalendar}>
                   <div className={styles.calendarTop}>
                     <p>Calender</p>
-                    <div>
+                    <div onClick={() => setShowDate((prev) => !prev)}>
                       <CancelSvg onClick={() => setShowDate((prev) => !prev)} />
                     </div>
                   </div>
-                  <Calendar onChange={setDate} value={date} />
+                  <Calendar value={date} />
                 </div>
               ) : null}
             </div>

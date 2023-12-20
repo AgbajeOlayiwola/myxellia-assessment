@@ -1,4 +1,7 @@
-const CalendarSvg = () => {
+interface CalendarSvgProps {
+  onClick: () => void
+}
+const CalendarSvg: React.FC<CalendarSvgProps> = ({ onClick }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
